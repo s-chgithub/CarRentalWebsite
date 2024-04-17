@@ -1,0 +1,12 @@
+1.Open backend in VisualStudio comm. 2022 and add data-base via package manager.
+2.seed data accordingly in ssms (Microsoft Sql Server Management)
+3.run the program, swagger will be enabled.
+--Add "admin@official.com , admin@123" in ssms, as it is admin user--
+-------
+4.open frontend in VS code
+6. install dependencies by running "npm i"
+5.just go into the terminal and start by ng serve
+6.Frontend will be started 
+
+--------------------
+for any queries kindly contact me at shantanusuper@gmail.com

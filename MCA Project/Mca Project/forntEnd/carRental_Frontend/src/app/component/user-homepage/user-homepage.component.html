@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<br>
+<br>
+<div class="main">
+    <div class="seearchBar">
+        <input type="text" name="search" [(ngModel)]="searchText" placeholder="Search cars">
+
+    </div>
+    <br>
+    <br>
+    <div class="dataa" *ngFor="let item of data  | filter:searchText">
+        <div class="column">
+            <div class="card">
+                <h2>{{item.vehicleMaker}} </h2>
+                <h1>{{item.vehicleModel}}</h1>
+
+                <h3>Cost: {{item.rentalCost}}</h3>
+                <!-- <h4 *ngIf=" item.avaialblity">Available</h4>
+                <h4 *ngIf=" !item.avaialblity">Not Available</h4> -->
+
+                <a [routerLink]="['/renting/'+item.vehicleNo]" *ngIf="item.avaialblity"> <button
+                        style="background-color:  #b0ab4d;" class="btn">Rent </button> </a>
+                <a *ngIf="!item.avaialblity"> <button
+                        style="background-color:  #b0ab4d;" class="btn">Not Available </button> </a>
+
+            </div>
+            <br>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+<section class="vh-100">
+  <div class="container-fluid h-custom">
+    <div class="row d-flex justify-content-center align-items-center h-80">
+      <div class="col-md-9 col-lg-6 col-xl-5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa39yDNSxJ3YKuwvraTN4ff87vKZGq8bQmQGgT8rdB3w&s" class="img-fluid" alt="Sample image" style="height: 250px;">
+      </div>
+      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <form [formGroup]="signUpForm" (ngSubmit)="signupSubmit()" class="p-4">
+          <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+            <p class="lead fw-normal mb-0 me-5 mt-4">Sign Up Here</p>
+          </div>
+
+          <div class="divider d-flex align-items-center my-4"></div>
+
+          <!-- Name input -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="name">Name</label>
+            <input type="text" id="name" class="form-control form-control-lg" placeholder="Enter your name" formControlName="name" required>
+            <div *ngIf="signUpForm.get('name')?.invalid && signUpForm.get('name')?.touched" class="text-danger">Name is required</div>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="email">Email address</label>
+            <input type="email" id="email" class="form-control form-control-lg" placeholder="Enter a valid email address" formControlName="email" required>
+            <div *ngIf="signUpForm.get('email')?.invalid && signUpForm.get('email')?.touched" class="text-danger">Invalid email address</div>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="password">Password</label>
+            <input type="password" id="password" class="form-control form-control-lg" placeholder="Enter password" formControlName="password" required>
+            <div *ngIf="signUpForm.get('password')?.invalid && signUpForm.get('password')?.touched" class="text-danger">Password is required</div>
+          </div>
+
+          <!-- Contact input -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="contact">Contact</label>
+            <input type="tel" id="contact" class="form-control form-control-lg" placeholder="Enter your contact number" formControlName="contact" minlength="10" maxlength="10" required>
+            <div *ngIf="signUpForm.get('contact')?.invalid && signUpForm.get('contact')?.touched" class="text-danger">Contact number is required</div>
+          </div>
+
+          <!-- Aadhar Number input -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="aadhar">Aadhar Number</label>
+            <input type="text" id="aadhar" class="form-control form-control-lg" placeholder="Enter your Aadhar number" formControlName="aadhar" minlength="12" maxlength="12" required>
+            <div *ngIf="signUpForm.get('aadhar')?.invalid && signUpForm.get('aadhar')?.touched" class="text-danger">Aadhar number must be 12 digits</div>
+          </div>
+
+          <div class="text-center text-lg-start mt-2 pt-2">
+            <button type="submit" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;" [disabled]="!signUpForm.valid">Sign Up</button>
+          </div>
+        </form>
+      </div>
+      <br><p align="center"> <font color="red">*Note: Your aadhar number is subjected to be verified at the time of car pickup.<br>Kindly bring your aadhar card at the pickup station.</font></p>
+     
+    </div>
+  </div>
+  
+</section>
+

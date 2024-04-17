@@ -1,0 +1,44 @@
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-80">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa39yDNSxJ3YKuwvraTN4ff87vKZGq8bQmQGgT8rdB3w&s" class="img-fluid" alt="Sample image" style="height: 250px;">
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form [formGroup]="addCarForm" (ngSubmit)="addCarSubmit()" class="p-4">
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+              <p class="lead fw-normal mb-0 me-5 mt-4">Add Car</p>
+            </div>
+  
+            <div class="divider d-flex align-items-center my-4"></div>
+  
+            <!-- Car Model input -->
+            <div class="form-outline mb-2">
+              <label class="form-label" for="carModel">Car Model</label>
+              <input type="text" id="carModel" class="form-control form-control-lg" placeholder="Enter car model" formControlName="carModel" required>
+              <div *ngIf="addCarForm.get('carModel')?.invalid && addCarForm.get('carModel')?.touched" class="text-danger">Car model is required</div>
+            </div>
+  
+            <!-- Car Maker input -->
+            <div class="form-outline mb-2">
+              <label class="form-label" for="carMaker">Car Maker</label>
+              <input type="text" id="carMaker" class="form-control form-control-lg" placeholder="Enter car maker" formControlName="carMaker" required>
+              <div *ngIf="addCarForm.get('carMaker')?.invalid && addCarForm.get('carMaker')?.touched" class="text-danger">Car maker is required</div>
+            </div>
+  
+            <!-- Rental Cost input -->
+            <div class="form-outline mb-2">
+              <label class="form-label" for="rentalCost">Rental Cost (per day)</label>
+              <input type="number" id="rentalCost" class="form-control form-control-lg" placeholder="Enter rental cost" formControlName="rentalCost" required>
+              <div *ngIf="addCarForm.get('rentalCost')?.invalid && addCarForm.get('rentalCost')?.touched" class="text-danger">Rental cost is required</div>
+            </div>
+  
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="submit" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;" [disabled]="!addCarForm.valid">Add Car</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  

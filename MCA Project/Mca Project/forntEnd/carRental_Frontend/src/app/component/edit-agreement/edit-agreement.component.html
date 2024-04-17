@@ -1,0 +1,94 @@
+<!--  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light container">
+    
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <h5> This is Admin Dashboard</h5>
+    <ul class="navbar-nav mr-auto">
+      <!-- <li class="nav-item active">
+        <a class="nav-link" href="home"><button class="btn ">Home</button></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="rentedcar"  ><button class="btn ">Rented Cars</button> </a>
+      </li>
+      
+       -->
+      <li class="nav-item">
+        <a class="nav-link" href="admin" ><button class="btn ">All Agreements</button> </a>
+      </li>
+      <!-- Need to check -->
+      <li class="nav-item-right">
+          <a class="nav-link" href="#"><button class="btn " (click)="logOut()"> Log Out</button></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!--  -->
+<div class="arch_contact_us_duplicate">
+  <div class="responsive-container-block big-container">
+    <div class="responsive-container-block container" *ngIf="car">
+      <div class="responsive-cell-block wk-mobile-12 wk-desk-5 wk-tab-10 wk-ipadp-5" id="ih6s">
+        <br>
+        <p class="text-blk section-head">
+          Car Detials
+        </p>
+
+        <br>
+        <h6>Vehicle Name</h6>
+
+        <h2>
+          {{car.vehicleMaker}}
+
+        </h2>
+        <br>
+        <h6>Vehicle Model</h6>
+
+        <h2>
+          {{car.vehicleModel}}
+
+        </h2>
+        <br>
+        <h6>Vehicle Cost</h6>
+
+        <h2>
+          {{car.rentalCost}}
+
+        </h2>
+
+      </div>
+
+
+
+
+      <div class="responsive-cell-block wk-ipadp-6 wk-mobile-12 wk-desk-5 wk-tab-9" id="i6df"><br>
+        <h3>Update Details Here</h3>
+        <form (ngSubmit)="onSubmit()" [formGroup]="updateAgreementForm">
+          <div class="form-wrapper">
+
+
+            <input class="input input-element" [(ngModel)]="numOfDays" name="Days" required
+              placeholder="Days Required For" formControlName="days">
+
+            <br><br>
+            <button class="button" type="button" (click)="calcPrice()">Check Price Before Booking</button>
+            <div *ngIf="totAmount !== undefined && totAmount !== 0">
+              <h2>Amount is: {{totAmount}}</h2>
+
+              <p *ngIf="totAmount !== 0">To Confirm Click Book || Or Edit Number of Days Before Booking</p>
+            </div>
+
+            <button class="button" type="submit">
+              Save New Rental Aggrement
+
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

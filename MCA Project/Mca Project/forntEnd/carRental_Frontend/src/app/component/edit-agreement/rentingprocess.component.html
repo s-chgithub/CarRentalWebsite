@@ -1,0 +1,63 @@
+<app-navbar></app-navbar>
+<div class="arch_contact_us_duplicate">
+  <div class="responsive-container-block big-container">
+    <div class="responsive-container-block container" *ngIf="car">
+      <div class="responsive-cell-block wk-mobile-12 wk-desk-5 wk-tab-10 wk-ipadp-5" id="ih6s">
+        <br>
+        <p class="text-blk section-head">
+          Car Detials
+        </p>
+
+        <br>
+        <h6>Vehicle Name</h6>
+
+        <h2>
+          {{car.vehicleMaker}}
+
+        </h2>
+        <br>
+        <h6>Vehicle Model</h6>
+
+        <h2>
+          {{car.vehicleModel}}
+
+        </h2>
+        <br>
+        <h6>Vehicle Cost</h6>
+
+        <h2>
+          {{car.rentalCost}}
+
+        </h2>
+
+      </div>
+
+      <div class="responsive-cell-block wk-ipadp-6 wk-mobile-12 wk-desk-5 wk-tab-9" id="i6df"><br>
+        <h3>Add Details Here!!</h3>
+        <form [formGroup]="rentingForm" (ngSubmit)="onSubmit()">
+          <div class="form-wrapper">
+
+            
+            <input class="input input-element" [(ngModel)]="numOfDays" name="Days" required
+              placeholder="Days Required For" formControlName="days">
+            <div class="form-text text-danger" *ngIf="Days.errors?.['required'] && Days.touched">
+              Days Are Required
+            </div>
+            <br><br>
+            <button class="button" type="button" (click)="calcPrice()">Check Price Before Booking!!</button>
+            <div *ngIf="totAmount !== undefined && totAmount !== 0">
+              <h2>Amount is: {{totAmount}}</h2>
+
+              <p *ngIf="totAmount !== 0">To Confirm Click Book || Or Edit Number of Days Before Booking</p>
+            </div>
+
+            <button class="button" type="submit">
+              Generate Rental Aggrement
+
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa39yDNSxJ3YKuwvraTN4ff87vKZGq8bQmQGgT8rdB3w&s"
+            class="img-fluid" alt="Sample image" style="height: 250px;">
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form [formGroup]="loginForm" (ngSubmit)="loginSubmit()">
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+              <p class="lead fw-normal mb-0 me-3">Login Here</p>
+              
+            </div>
+  
+            <div class="divider d-flex align-items-center my-4">
+            </div>
+  
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="email" class="form-control form-control-lg"
+                placeholder="Enter a valid email address" formControlName="email"/>
+              <label class="form-label" for="email">Email address</label>
+              <div class="form-text text-danger" *ngIf="Emails.errors?.['required'] && Emails.touched">
+                Email is Required
+              </div>
+              <div class="form-text text-danger" *ngIf="Emails.errors?.['email'] && (Emails.dirty || Emails.touched)">
+                Email is not in format
+              </div>
+            </div>
+  
+            <!-- Password input -->
+            <div class="form-outline mb-3">
+              <input type="password" id="passs" class="form-control form-control-lg"
+                placeholder="Enter password" formControlName="passs"/>
+              <label class="form-label" for="passs">Password</label>
+              <div class="form-text text-danger" *ngIf="Passs.errors?.['required'] && Passs.touched">
+                Password is Required
+              </div>
+            </div>
+  
+  
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="submit" class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;margin-bottom: 8px;">Login</button>
+              </div>
+  
+          </form>
+          Not registered?  <a routerLink="/signup"> Signup here</a>
+        </div>
+      </div>
+    </div>
+
+  </section>

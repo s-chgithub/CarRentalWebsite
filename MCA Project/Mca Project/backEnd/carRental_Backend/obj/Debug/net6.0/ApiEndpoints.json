@@ -1,0 +1,265 @@
+[
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "acceptReturn",
+    "RelativePath": "api/CarRental/AcceptReturn/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "AddCar",
+    "RelativePath": "api/CarRental/addCar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_vehicle",
+        "Type": "carRental_Backend.Models.vehicle",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "GetAllCars",
+    "RelativePath": "api/CarRental/AllData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "GetCar",
+    "RelativePath": "api/CarRental/CarDetials/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "checkPayment",
+    "RelativePath": "api/CarRental/checkPayment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "DeleteAgreement",
+    "RelativePath": "api/CarRental/DeleteAgreement/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "GetAgreement",
+    "RelativePath": "api/CarRental/GetAgreement/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "GetAllAggrement",
+    "RelativePath": "api/CarRental/GetAllAggrement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "gett",
+    "RelativePath": "api/CarRental/GetUserAggrement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_email",
+        "Type": "carRental_Backend.Models.Email",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/CarRental/GetUserData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "Login",
+    "RelativePath": "api/CarRental/LoginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "carRental_Backend.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "pushReturn",
+    "RelativePath": "api/CarRental/PushReturn/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "RentalForm",
+    "RelativePath": "api/CarRental/RentalAggrement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rental",
+        "Type": "carRental_Backend.Models.RentalAgreement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "Signup",
+    "RelativePath": "api/CarRental/signUpUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_user",
+        "Type": "carRental_Backend.Models.user",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "UpdateAgreement",
+    "RelativePath": "api/CarRental/UpdateAgreement/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newAgreement",
+        "Type": "carRental_Backend.Models.updateRental",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.CarRentalController",
+    "Method": "GetUser",
+    "RelativePath": "api/CarRental/UserDetails/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "carRental_Backend.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[carRental_Backend.WeatherForecast, carRental_Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

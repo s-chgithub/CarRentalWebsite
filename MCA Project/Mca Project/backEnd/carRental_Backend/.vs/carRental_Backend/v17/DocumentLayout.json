@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|c:\\users\\shant\\onedrive\\desktop\\carrentalwebsite\\mini assignment\\mini assignment\\backend\\carrental_backend\\controllers\\carrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|solutionrelative:controllers\\carrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|c:\\users\\shant\\onedrive\\desktop\\carrentalwebsite\\mini assignment\\mini assignment\\backend\\carrental_backend\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|solutionrelative:models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|c:\\users\\shant\\onedrive\\desktop\\carrentalwebsite\\mini assignment\\mini assignment\\backend\\carrental_backend\\migrations\\20240415081915_added payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|solutionrelative:migrations\\20240415081915_added payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|c:\\users\\shant\\onedrive\\desktop\\carrentalwebsite\\mini assignment\\mini assignment\\backend\\carrental_backend\\models\\updaterental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|solutionrelative:models\\updaterental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|c:\\users\\shant\\onedrive\\desktop\\carrentalwebsite\\mini assignment\\mini assignment\\backend\\carrental_backend\\models\\rentalagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|solutionrelative:models\\rentalagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|c:\\users\\shant\\onedrive\\desktop\\carrentalwebsite\\mini assignment\\mini assignment\\backend\\carrental_backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|c:\\users\\shant\\onedrive\\desktop\\carrentalwebsite\\mini assignment\\mini assignment\\backend\\carrental_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{56C0797D-2552-4C5D-B91C-0791964765B8}|carRental_Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Emailmodel.cs",
+              "DocumentMoniker": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Models\\Emailmodel.cs",
+              "RelativeDocumentMoniker": "Models\\Emailmodel.cs",
+              "ToolTip": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Models\\Emailmodel.cs",
+              "RelativeToolTip": "Models\\Emailmodel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:02:43.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarRentalController.cs",
+              "DocumentMoniker": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Controllers\\CarRentalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarRentalController.cs",
+              "ToolTip": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Controllers\\CarRentalController.cs",
+              "RelativeToolTip": "Controllers\\CarRentalController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:33:05.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240415081915_added Payment.cs",
+              "DocumentMoniker": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Migrations\\20240415081915_added Payment.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240415081915_added Payment.cs",
+              "ToolTip": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Migrations\\20240415081915_added Payment.cs",
+              "RelativeToolTip": "Migrations\\20240415081915_added Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:19:16.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "updateRental.cs",
+              "DocumentMoniker": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Models\\updateRental.cs",
+              "RelativeDocumentMoniker": "Models\\updateRental.cs",
+              "ToolTip": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Models\\updateRental.cs",
+              "RelativeToolTip": "Models\\updateRental.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:17:13.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RentalAgreement.cs",
+              "DocumentMoniker": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Models\\RentalAgreement.cs",
+              "RelativeDocumentMoniker": "Models\\RentalAgreement.cs",
+              "ToolTip": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Models\\RentalAgreement.cs",
+              "RelativeToolTip": "Models\\RentalAgreement.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:17:02.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Models\\user.cs",
+              "RelativeDocumentMoniker": "Models\\user.cs",
+              "ToolTip": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\Models\\user.cs",
+              "RelativeToolTip": "Models\\user.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:16:28.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\shant\\OneDrive\\Desktop\\CarRentalWebsite\\Mini Assignment\\Mini Assignment\\backEnd\\carRental_Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-13T07:34:11.265Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

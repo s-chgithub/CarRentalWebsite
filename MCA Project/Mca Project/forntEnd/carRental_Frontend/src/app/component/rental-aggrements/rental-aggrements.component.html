@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<br>
+<div class="main" style="overflow-x: auto; width: 100%;">
+  <table style="width:100%;">
+    <tr>
+      <th>Agreement ID</th>
+
+      <th>User Email</th>
+      <th>Required Days</th>
+      <th>Vehicle Maker</th>
+      <th>Vehicle Model</th>
+      <th>Total Cost</th>
+      <th>Return Button</th>
+      <th>Payment Here</th>
+    </tr>
+    <tr *ngFor="let item of items; let i=index">
+      <td>{{item.agreementID}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.days}}</td>
+      <td>{{item.vehicleMaker}}</td>
+      <td>{{item.vehicleModel}}</td>
+      <td>{{item.rentalCost}}</td>
+      <td><button style="background-color: #b0ab4d;" (click)="pushStatus(item.agreementID)">Return</button> </td>
+      <td *ngIf="!item.isPaid"><button type="button" style="margin-top: 10px; border-radius: 5px;" (click)="payNow(i)">Pay here</button></td>
+      <td *ngIf="item.isPaid"> Paid</td>
+    </tr>
+  </table><br><br>
+  <h5><font color="red">*Note : If already paid, wait for admin's approval</font></h5>
+  
+  
+</div>
